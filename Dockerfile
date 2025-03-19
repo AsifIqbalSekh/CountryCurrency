@@ -1,5 +1,5 @@
 # Use the official aws 21 image from Docker Hub
-FROM amazoncorretto:21
+FROM public.ecr.aws/corretto/corretto:21
 # Set working directory inside the container
 WORKDIR /app
 # Copy the compiled Java application JAR file into the container
